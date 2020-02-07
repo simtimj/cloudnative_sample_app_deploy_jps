@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cloudnativesampleapp-deployment
+  namespace: "rtp-jps"
   labels:
     chart: cloudnativesampleapp-1.0.0
 spec:
